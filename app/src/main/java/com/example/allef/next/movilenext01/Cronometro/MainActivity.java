@@ -1,10 +1,13 @@
-package com.example.allef.next.movilenext01;
+package com.example.allef.next.movilenext01.Cronometro;
 
 import android.arch.lifecycle.ViewModelProviders;
 import android.os.SystemClock;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Chronometer;
+
+import com.example.allef.next.movilenext01.Cronometro.ChrometerViewModel;
+import com.example.allef.next.movilenext01.R;
 
 public class MainActivity extends AppCompatActivity {
 

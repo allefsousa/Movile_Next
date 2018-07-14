@@ -1,9 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SeekBarActivity">
+    android:orientation="vertical"
+    tools:context=".Seekbar.SeekBarActivity">
 
-</android.support.constraint.ConstraintLayout>
+    <fragment
+        android:layout_width="match_parent"
+        android:name="com.example.allef.next.movilenext01.Seekbar.SeekBarFragment"
+        android:layout_weight="1"
+        android:id="@+id/fragment1"
+        android:layout_height="0dp"/>
+    <fragment
+        android:layout_width="match_parent"
+        android:name="com.example.allef.next.movilenext01.Seekbar.SeekBarFragment"
+        android:layout_weight="1"
+        android:id="@+id/fragment2"
+        android:layout_height="0dp"/>
+
+
+</LinearLayout>

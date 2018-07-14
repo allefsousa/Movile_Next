@@ -1,4 +1,4 @@
-package com.example.allef.next.movilenext01;
+package com.example.allef.next.movilenext01.Cronometro;
 
 import android.arch.lifecycle.Observer;
 import android.arch.lifecycle.ViewModelProviders;
@@ -6,6 +6,8 @@ import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
+
+import com.example.allef.next.movilenext01.R;
 
 public class LiveDataActivity extends AppCompatActivity {
 

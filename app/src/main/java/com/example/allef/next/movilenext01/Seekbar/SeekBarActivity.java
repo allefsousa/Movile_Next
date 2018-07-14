@@ -1,7 +1,9 @@
-package com.example.allef.next.movilenext01;
+package com.example.allef.next.movilenext01.Seekbar;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.example.allef.next.movilenext01.R;
 
 public class SeekBarActivity extends AppCompatActivity {
 
